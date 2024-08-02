@@ -2,6 +2,7 @@ package com.example.myapplication
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 
 class ReceiptActivity : AppCompatActivity() {
@@ -12,6 +13,7 @@ class ReceiptActivity : AppCompatActivity() {
         val receiptTextView: TextView = findViewById(R.id.receiptTextView)
         val receiptData = intent.getStringExtra("RECEIPT_DATA")
 
+        Log.d("Hello", "World")
         receiptTextView.text = receiptData
     }
 }
