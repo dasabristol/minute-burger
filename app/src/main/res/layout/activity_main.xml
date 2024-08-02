@@ -77,7 +77,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
                 <ImageView
-                    android:layout_width="160dp"
+                    android:layout_width="203dp"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
                     android:src="@drawable/pepper"
@@ -87,7 +87,7 @@
 
                 <TextView
                     android:id="@+id/Price"
-                    android:layout_width="130dp"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_margin="5dp"
@@ -95,7 +95,7 @@
                     android:background="@drawable/rectangle"
                     android:gravity="center"
                     android:text="₱99.50"
-                    android:textSize="30sp" />
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/quantity1"
@@ -106,7 +106,7 @@
                     android:background="@drawable/rectangle"
                     android:gravity="center"
                     android:text="0"
-                    android:textSize="30sp" />
+                    android:textSize="20sp" />
 
             </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -146,7 +146,7 @@
                     android:text="0"
                     android:layout_margin="10dp"
                     android:background="@drawable/rectangle"
-                    android:textSize="30sp" />
+                    android:textSize="20sp" />
 
 
                 <Button
@@ -185,47 +185,48 @@
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="10dp"
                 android:layout_margin="10dp">
-            <LinearLayout
-                android:padding="5dp"
-                android:id="@+id/linearLayout6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-                <ImageView
-                    android:layout_width="198dp"
-                    android:layout_height="201dp"
-                    android:padding="20dp"
-                    android:src="@drawable/bacon"
-                    tools:layout_editor_absoluteX="183dp"
-                    tools:layout_editor_absoluteY="98dp" />
-
-                <TextView
-                    android:id="@+id/Price1"
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="₱85.50"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/rectangle"
-                    android:textSize="30sp"  />
+                    android:padding="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-                <TextView
-                    android:id="@+id/quantity2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="0"
-                    android:background="@drawable/rectangle"
-                    android:textSize="30sp"/>
+                    <ImageView
+                        android:layout_width="198dp"
+                        android:layout_height="201dp"
+                        android:padding="20dp"
+                        android:src="@drawable/bacon"
+                        tools:layout_editor_absoluteX="183dp"
+                        tools:layout_editor_absoluteY="98dp" />
 
-            </LinearLayout>
+                    <TextView
+                        android:id="@+id/Price1"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/rectangle"
+                        android:gravity="center"
+                        android:text="₱85.50"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/quantity2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@drawable/rectangle"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
 
             </androidx.cardview.widget.CardView>
 
@@ -261,7 +262,7 @@
                     android:background="@drawable/rectangle"
                     android:text="0"
                     android:layout_margin="10dp"
-                    android:textSize="30sp" />
+                    android:textSize="20sp" />
 
 
                 <Button
@@ -313,7 +314,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
 
                 <ImageView
-                    android:layout_width="190dp"
+                    android:layout_width="205dp"
                     android:layout_height="wrap_content"
                     android:padding="20dp"
                     android:src="@drawable/crispy"
@@ -322,7 +323,7 @@
 
                 <TextView
                     android:id="@+id/Price3"
-                    android:layout_width="wrap_content"
+                    android:layout_width="30dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
@@ -330,7 +331,7 @@
                     android:text="₱105.50"
                     android:layout_margin="5dp"
                     android:background="@drawable/rectangle"
-                    android:textSize="30sp" />
+                    android:textSize="20sp" />
 
                 <TextView
 
@@ -342,7 +343,7 @@
                     android:gravity="center"
                     android:text="0"
                     android:background="@drawable/rectangle"
-                    android:textSize="30sp"/>
+                    android:textSize="20sp"/>
 
             </LinearLayout>
 
@@ -376,7 +377,7 @@
                     android:text="0"
                     android:layout_margin="10dp"
                     android:background="@drawable/rectangle"
-                    android:textSize="30sp" />
+                    android:textSize="20sp" />
 
 
                 <Button

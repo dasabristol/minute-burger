@@ -13,7 +13,6 @@ class ReceiptActivity : AppCompatActivity() {
         val receiptTextView: TextView = findViewById(R.id.receiptTextView)
         val receiptData = intent.getStringExtra("RECEIPT_DATA")
 
-        Log.d("Hello", "World")
         receiptTextView.text = receiptData
     }
 }
