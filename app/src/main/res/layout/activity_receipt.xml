@@ -30,4 +30,14 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:text="Receipt will be displayed here" />
 
+    <Button
+        android:text="Order Again"
+        android:id="@+id/OrderAgain"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/receiptTextView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
